@@ -10,12 +10,15 @@ body{
     margin: 0px;
 }
 .nav_bar1{
-    margin-top: 5px;
+    margin-top: -58px;
     display: flex;
     /* background-color: blue; */
     /* align-items: center; */
     background-color: rgb(239, 239, 239);
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 .logo{
     margin-left: 50px;
@@ -37,7 +40,10 @@ body{
     height: 65px;
     display: flex;
     align-items: center;
-    margin-top: -5px;
+    margin-top: -30px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 .logo2{
     margin-left: 40px;
@@ -84,8 +90,8 @@ body{
 }
 .bi-search{
     position: absolute;
-    right: 19.8%;
-    top: 48px;
+    right: 19%;
+    top: 18px;
     font-size: 18px;
 }
 .bi-search:hover{
@@ -122,7 +128,7 @@ body{
 .banner{
     background-color: rgb(239, 239, 239);
     /* margin-top: -7px; */
-    height:75px;
+    height:115px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -130,10 +136,11 @@ body{
     line-height: 0.5px;
     font-size: 13px;
     font-weight: 400;
+    margin-top: 58px;
 }
 .p1{
     font-size: 15px;
-    /* margin-top: 19px; */
+    margin-top: 50px;
 }
 .banner a{
     /* text-decoration: none; */
@@ -141,9 +148,11 @@ body{
     margin-top: 5px;
     font-weight: 500;
 }
-.content1{
+.contents{
     padding-left: 50px;
     padding-right: 50px;
+}
+.content1{
     background-color: white;
     display: flex;
     justify-content: center;
@@ -154,7 +163,7 @@ body{
     width: 100%;
 }
 .back_img_text{
-    z-index: 1;
+    /* z-index: -1; */
     position: absolute;
     color: white;
     font-size: 80px;
@@ -205,4 +214,25 @@ body{
     display: flex;
     align-items: center;
     border-radius: 25px;
+    font-weight: 500;
+}
+.btn1:hover{
+    background-color: grey;
+}
+.btn2:hover{
+    background-color: grey;
+}
+.images{
+    width: 1420px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+.image{
+    width: 455px;
+    height: 555px;
+}
+.content2 .cnt_text{
+    font-size: 18px;
+    font-weight: 600;
 }
