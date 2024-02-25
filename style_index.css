@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 body{
-    background-color: rgb(239, 239, 239);
+    background-color: white;
     margin: 0px;
     font-family: "Open Sans", sans-serif;
 }
@@ -12,16 +12,18 @@ body{
     display: flex;
     /* background-color: blue; */
     /* align-items: center; */
+    background-color: rgb(239, 239, 239);
     justify-content: space-between;
 }
 .logo{
-    margin-left: 45px;
+    margin-left: 50px;
     /* background-color: red; */
     width: fit-content;
 }
 .nav1_items{
     display: flex;
     /* background-color: red; */
+    /* background-color: rgb(239, 239, 239); */
     justify-content: flex-start;
     margin-right: 50px;
     font-size: 12px;
@@ -81,7 +83,7 @@ body{
 .bi-search{
     position: absolute;
     right: 19.8%;
-    top: 52px;
+    top: 48px;
     font-size: 18px;
 }
 .bi-search:hover{
@@ -116,16 +118,42 @@ body{
     background-color: rgb(209, 208, 208);
 }
 .banner{
-    background-color: aqua;
+    background-color: rgb(239, 239, 239);
     /* margin-top: -7px; */
-    /* height:  */
+    height:75px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    line-height: 5px;
+    line-height: 0.5px;
     font-size: 13px;
+    font-weight: 400;
 }
 .p1{
     font-size: 15px;
+    /* margin-top: 19px; */
+}
+.banner a{
+    /* text-decoration: none; */
+    color: black;
+    margin-top: 5px;
+    font-weight: 500;
+}
+.content1{
+padding-left: 50px;
+padding-right: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 50px; */
+}
+.content1 .back_img1{
+    height: 800px;
+    width: 100%;
+}
+.back_img_text{
+    z-index: 1;
+    position: absolute;
+    color: white;
+    font-size: 55px;
 }
