@@ -279,4 +279,10 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: -130px;
+    text-align: center;
 }  
+.content5 .cnt_text{
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 600;
+}
