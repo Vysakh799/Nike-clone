@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
 body{
     background-color: white;
     margin: 0px;
@@ -354,6 +355,8 @@ body{
 }
 .contents7{
     display: flex;
+    overflow: auto;
+    height: 515px;
 }
 .contents7 img{
     width: 417px;
@@ -361,4 +364,43 @@ body{
 }
 .cnt{
     margin-left: 20px;
+}
+.first_cnttxt{
+    margin-top: -130px;
+    margin-left:25px ;
+    color: rgb(255, 255, 255);
+}
+.table{
+    width: 50%;
+}
+.content8{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 2;
+}
+.content8 p{
+    margin-left: 29px;
+    font-weight: bold;
+}
+.content8 div{
+    margin-left: 35px;
+}
+.firstcnt{
+    font-weight: bold;
+    line-height: 1;
+    word-spacing: 0.2;
+    font-family: "Teko", sans-serif;
+    margin-top: 25px;
+}
+.secondcnt, .thirdcnt{
+    font-size: 10px;
+    margin-left: 80px;
+    margin-top: 25px;
+    color: grey;
+    line-height: 0.5;
+}
+.cnts{
+    display: flex;
+    margin-left: 100px;
 }
