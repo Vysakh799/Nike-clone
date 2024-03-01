@@ -356,7 +356,7 @@ body{
 .contents7{
     display: flex;
     overflow: auto;
-    height: 515px;
+    height: 518px;
 }
 .contents7 img{
     width: 417px;
@@ -389,18 +389,65 @@ body{
 .firstcnt{
     font-weight: bold;
     line-height: 1;
-    word-spacing: 0.2;
+    word-spacing: 0.5;
     font-family: "Teko", sans-serif;
     margin-top: 25px;
 }
 .secondcnt, .thirdcnt{
-    font-size: 10px;
+    font-size: 15px;
     margin-left: 80px;
     margin-top: 25px;
     color: grey;
-    line-height: 0.5;
+    line-height: 1;
 }
 .cnts{
     display: flex;
     margin-left: 100px;
+    width: 50%;
+}
+.container{
+    display: flex;
+}
+.logos{
+    display: flex;
+    font-size: 25px;
+    /* background-color: red; */
+    height: fit-content;
+    margin-left: 400px;
+
+}
+.facebook, .youtube, .insta{
+    margin-left: 25px;
+}
+.last_line{
+    display: flex;
+    font-size: 12px;
+}
+.leftside{
+    display: flex;
+    align-items: center;
+}
+.rightside{
+    display: flex;
+    margin-left: 850px;
+}
+.rightside p{
+    margin-left: 15px;
+}
+
+/* NIKE AIR PAGE STYLE */
+.nav_bar2_3{
+    display: flex;
+    height: 180px;
+}
+.left_side2_1{
+    background-color: red;
+}
+.left_side2_1 p{
+    font-size: 23px; 
+    font-weight: 600;
+    margin-top: 148px;
+}
+.right_side2_1{
+    display: flex
 }
