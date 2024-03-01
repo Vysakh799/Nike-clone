@@ -293,14 +293,22 @@ body{
     font-size: 18px;
     font-weight: 600;
 }
-.carousel{
+.carousel1, .carousel2, .carousel3, .carousel4{
     width: 23%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.carousel{
+    width: 100%;
     height: 288px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 25px;
     margin-top: 15px;
     /* flex: 1; */
-    margin-left: 30px;
+    /* margin-left: 30px; */
 }
 .carousel img{
     border-radius: 25px;
@@ -316,4 +324,41 @@ body{
 }
 .carousels{
     display: flex;
+}
+.carousels p{
+    margin-top: 10px;
+    font-weight: 500;
+}
+.content6 .cnt_text{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.content6 img{
+    width: 400px;
+    height: 358px;
+}
+.contents6{
+    display: flex;
+    overflow: auto;
+}
+.Secondone, .Thirdone, .Fourthone, .Fifthone{
+    margin-left: 25px;
+}
+.firstone, .Secondone, .Thirdone, .Fourthone, .Fifthone{
+    height: 490px;
+}
+.content7 .cnt_text{
+    font-size: 18px;
+    font-weight: 600;
+}
+.contents7{
+    display: flex;
+}
+.contents7 img{
+    width: 417px;
+    height: 500px;
+}
+.cnt{
+    margin-left: 20px;
 }
