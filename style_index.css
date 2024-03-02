@@ -48,7 +48,7 @@ body{
     margin-top: -8px;
     /* position: fixed; */
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
     /* z-index: 1; */
 }
 .logo2{
@@ -296,11 +296,11 @@ body{
 .content4 .cnt_text{
     /* margin-top: 100px; */
     position: absolute;
-    top: 398vh;
+    top: 280vh;
     font-size: 18px;
     font-weight: 600;
 }
-.carousel1, .carousel2, .carousel3, .carousel4{
+.carouse{
     width: 23%;
     margin-left: 30px;
     display: flex;
@@ -398,7 +398,7 @@ body{
 .firstcnt{
     font-weight: bold;
     line-height: 1;
-    word-spacing: 0.5;
+    /* word-spacing: 0.5; */
     font-family: "Teko", sans-serif;
     margin-top: 25px;
 }
@@ -423,7 +423,6 @@ body{
     /* background-color: red; */
     height: fit-content;
     margin-left: 400px;
-
 }
 .facebook, .youtube, .insta{
     margin-left: 25px;
@@ -445,6 +444,7 @@ body{
 }
 
 /* Media Query */
+
 @media  (max-width:1250px) {
     .item7{
         display: none;
@@ -453,7 +453,8 @@ body{
         margin-left: 100px;
     }
     .nav_contents{
-        font-size: 12px;
+        font-size: 15px;
+        margin-left: 260px;
     }
     .image{
         width: 355px;
@@ -465,9 +466,49 @@ body{
     }
     .content1 .back_img1{
         height: 600px;
-
+    }
+    .content4{
+        margin-top: -80px;
+    }
+    .sub_content2{
+        margin-top: -180px;
+    }
+    .rightside{
+        margin-left: 500px;
+    }
+    .firstcnt p{
+        font-size: 16px;
+        font-weight: 400;
+        width: 100px;
+    }
+    .secondcnt_head{
+        font-size: 16px;
+        width: 230px;
+    }
+    .seccondcnt p{
+        font-size: 13px;
+    }
+    .logos{
+        margin-left: 300px;
+        font-size: 20px;
+    }
+    /* .carousel{
+        height: 270px;
+    }
+    .carousel-item img{
+        width: 20px;
+        height: 2px;
+    } */
+}
+@media  (max-width:1200px){
+    .item6{
+        display: none   ;
+    }
+    .nav_contents{
+        margin-left: 240px;
     }
 }
+
 /* Media Query End */
 
 /* NIKE AIR PAGE STYLE */
