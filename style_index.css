@@ -7,8 +7,12 @@ body{
     margin: 0px;
     font-family: "Open Sans", sans-serif;
 }
+/* body ::-webkit-scrollbar {
+    display: none;
+} */
 .main{
     margin: 0px;
+    width: 100%;
 }
 .nav_bar1{
     /* margin-top: -58px; */
@@ -44,6 +48,7 @@ body{
     margin-top: -8px;
     /* position: fixed; */
     width: 100%;
+    background-color: red;
     /* z-index: 1; */
 }
 .logo2{
@@ -53,10 +58,10 @@ body{
 .nav_contents{
     display: flex;
     /* background-color: red; */
-    width: 39%;
+    width: 750px;
     height: 100%;
     margin-left: 340px;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     align-items: center;
     font-size: 16px;
     font-weight: 600;
@@ -65,6 +70,7 @@ body{
     display: flex;
     align-items: center;
     height: 100%;
+    margin-left: 15px;
 }
 .item:hover{
     border-bottom: 2px solid black;
@@ -74,7 +80,7 @@ body{
     height: 55px;
     display: flex;
     align-items: center;
-    margin-left: 150px;
+    /* margin-left: px; */
 }
 .search{
     background-color: rgb(223, 223, 223);
@@ -90,9 +96,9 @@ body{
     border: none;
 }
 .bi-search{
-    position: absolute;
-    right: 19%;
-    top: 19px;
+    position: relative;
+    right: 83%;
+    top: 1px;
     font-size: 18px;
 }
 .bi-search:hover{
@@ -343,6 +349,9 @@ body{
     display: flex;
     overflow: auto;
 }
+.contents6 ::-webkit-scrollbar {
+    display: none;
+}
 .Secondone, .Thirdone, .Fourthone, .Fifthone{
     margin-left: 25px;
 }
@@ -434,6 +443,32 @@ body{
 .rightside p{
     margin-left: 15px;
 }
+
+/* Media Query */
+@media  (max-width:1250px) {
+    .item7{
+        display: none;
+    }
+    .search_bar{
+        margin-left: 100px;
+    }
+    .nav_contents{
+        font-size: 12px;
+    }
+    .image{
+        width: 355px;
+        height: 455px;
+    }
+    .img1_0 img{
+        width: 555px;
+        height: 655px ;
+    }
+    .content1 .back_img1{
+        height: 600px;
+
+    }
+}
+/* Media Query End */
 
 /* NIKE AIR PAGE STYLE */
 .nav_bar2_3{
