@@ -259,8 +259,8 @@ body{
     flex:1;
 }
 .img1_0 img{
-    width: 700px;
-    height: 800px ;
+    width: 100%;
+    height: 100% ;
 }
 .img_2{
     margin-left: 20px;
@@ -294,14 +294,12 @@ body{
     font-weight: 600;
 }
 .content4 .cnt_text{
-    /* margin-top: 100px; */
-    position: absolute;
-    top: 280vh;
+    margin-top: 100px;            
     font-size: 18px;
     font-weight: 600;
 }
 .carouse{
-    width: 23%;
+    width: 50%;
     margin-left: 30px;
     display: flex;
     flex-direction: column;
@@ -331,6 +329,11 @@ body{
 }
 .carousels{
     display: flex;
+}
+.carousel_section1, .carousel_section2{
+    display: flex;
+    width: 50%;
+    /* background-color: red; */
 }
 .carousels p{
     margin-top: 10px;
@@ -506,6 +509,11 @@ body{
     }
     .nav_contents{
         margin-left: 240px;
+    }
+}
+@media (max-width:1000px){
+    .carousels{
+        display: block;
     }
 }
 
