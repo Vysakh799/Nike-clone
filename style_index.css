@@ -681,6 +681,10 @@ body{
     .icon3{
         display:flex;
     }
+    .image{
+        width: 150px;
+        height: 250px;
+    }
 
 }
 
