@@ -9,10 +9,62 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+                function openForm() {
+        document.getElementById("myForm").style.display = "block";
+        document.getElementById("a1").style.opacity="0.3 "
+        
+
+        }
+
+        function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+        document.getElementById("a1").style.opacity="1 "
+        }
+    </script>
    
 </head>
-<body>
-    <div class="main">
+<body >
+     <!-- Pop up menu -->
+
+     <div class="popup" id="myForm" >
+        <div class="closebutton" onclick="closeForm()">
+            <i class="bi bi-x" style="font-size: 25px;" ></i>
+        </div>
+        <div class="pop1">
+            <p>New & Featured</p>
+            <i class="bi bi-caret-right"></i>
+        </div>
+        <div class="pop1">
+            <p>Men</p>
+            <i class="bi bi-caret-right"></i>
+        </div>
+        <div class="pop1">
+            <p>Women</p>
+            <i class="bi bi-caret-right"></i>
+        </div>
+        <div class="pop1">
+            <p>Kids</p>
+            <i class="bi bi-caret-right"></i>
+        </div>
+        <div class="pop1">
+            <p>sale</p>
+            <i class="bi bi-caret-right"></i>
+        </div>
+        <div class="pop1">
+            <p>Customize</p>
+            <i class="bi bi-caret-right"></i>
+        </div>
+        <div class="pop1">
+            <p>SNKRS</p>
+            <i class="bi bi-caret-right"></i>
+        </div>
+
+        
+    </div>
+
+<!-- Pop up menu end -->
+    <div class="main" id="a1">
         <div class="nav_bar1">
             <div class="logo">
                 <svg height="24px" width="24px" fill="#111" viewBox="0 0 26 32">
@@ -58,8 +110,12 @@
                 <div class="icon2">
                  <i class="bi bi-handbag"></i>
                 </div>
+                <div class="icon3" onclick="openForm()" >
+                    <i class="bi bi-list"></i>
+                </div>
             </div>
         </div>
+
         <div class="banner">
                 <p class="p1">Move, Shop, Customize & Celebrate With Us</p>
                 <p class="p2">No matter what you feel like doing today, Its better as a member</p>
@@ -423,10 +479,10 @@
 
                 </div>
             </div>
-            <div class="content8 container mt-5" style="width: 70%;">
+            <div class="content8 mt-5" style="width: 100%;">
                 <div class="one">
                     <p>Icons</p>
-                    <ul style="list-style: none; color: grey;">
+                    <ul class="list" style="list-style: none; color: grey;">
                         <li>Air Force 1</li>
                         <li>Huarache</li>
                         <li>Air Max 90</li>
@@ -440,7 +496,7 @@
                 </div>
                 <div class="two">
                     <p>Shoes</p>
-                    <ul style="list-style: none;color: grey;">
+                    <ul class="list" style="list-style: none;color: grey;">
                         <li>All Shoes</li>
                         <li>Custom Shoes</li>
                         <li>Jordan Shoes</li>
@@ -453,7 +509,7 @@
                 </div>
                 <div class="three">
                     <p>Clothing</p>
-                    <ul style="list-style: none;color: grey;">
+                    <ul class="list" style="list-style: none;color: grey;">
                         <li>All Clothing</li>
                         <li>Modest Wear</li>
                         <li>Hoodies & Pullovers</li>
@@ -466,7 +522,7 @@
                 </div>
                 <div class="four">
                     <p>Kids'</p>
-                    <ul style="list-style: none;color: grey;">
+                    <ul class="list" style="list-style: none;color: grey;">
                         <li>Infant & Toddler Shoes</li>
                         <li>Kids' Shoes</li>
                         <li>Kids' Jordan Shoes</li>
@@ -541,5 +597,6 @@
             </div> 
         </div>
     </div>
+   
 </body>
 </html>

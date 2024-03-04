@@ -114,7 +114,7 @@ body{
     margin-left: 22px;
     margin-top: -2px;
 }
-.icon1, .icon2{
+.icon1, .icon2, .icon3{
     /* background-color: grey; */
     width: 35px;
     height: 35px;
@@ -122,6 +122,10 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 50px;
+    margin-left: 15px;
+}
+.icon3{
+    font-size: 30px;
 }
 .bi-suit-heart, .bi-handbag{
     margin-top: -5px;
@@ -211,6 +215,12 @@ body{
 }
 .para_1{
     margin-top: -15px;
+}
+.buttons{
+    display: flex;
+}
+.buttons div{
+    margin-left: 5px;
 }
 .buttons p{
     margin-top: 10px;
@@ -347,9 +357,6 @@ body{
     display: flex;
     overflow: auto;
 }
-.contents6 ::-webkit-scrollbar {
-    display: none;
-}
 .Secondone, .Thirdone, .Fourthone, .Fifthone{
     margin-left: 25px;
 }
@@ -390,9 +397,7 @@ body{
     margin-left: 29px;
     font-weight: bold;
 }
-.content8 div{
-    margin-left: 35px;
-}
+
 .firstcnt{
     font-weight: bold;
     line-height: 1;
@@ -440,7 +445,32 @@ body{
 .rightside p{
     margin-left: 15px;
 }
-
+.icon3{
+    display: none;
+}
+.popup {
+    display: none;
+    position: fixed;
+    right: 15px;
+    top: 100px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    background-color: white;
+    width: 50%;
+}
+.closebutton{
+     margin-left: 275px;
+}
+.pop1{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+.pop1 .bi-caret-right{
+    position:absolute;
+    right: 10px;
+  
+}
 /* Media Query */
 
 @media  (max-width:1250px) {
@@ -542,6 +572,9 @@ body{
     .rightside{
         margin-left: 300px;
     }
+    .item5{
+        display: none;
+    }
 }
 @media (max-width:800px) {
     .secondcnt{
@@ -596,9 +629,6 @@ body{
     .content1 .back_img1{
         height: 400px;
     }
-    .buttons .btn2{
-        margin-top: 10px;
-    }
     .img1_0 .cnt3_para{
         font-size: 15px;
     }
@@ -614,13 +644,43 @@ body{
     .content4 .para_1{
         font-size: 12px;
     }
-    .item5{
-        display: none;
-    }
+    
     .search_bar{
         margin-left: 120px;
     }
-
+    .content8 .list{
+        font-size: 12px;
+    }
+    .content8 .three{
+        width: 400px;
+    }
+    .content8 .one{
+        width: 300px;
+    }
+    .content8 .two{
+        width: 300px;
+    }
+    .content8 .four{
+    /* margin-left: 100px; */
+    width: 300px;
+    }
+}
+@media (max-width:650px) {
+    .nav_contents{
+        display: none;
+    }
+    .search_bar{
+        margin-left: 50%;
+    }
+    .icons{
+        margin-left: 0px;
+    }
+    .icons div{
+        margin-left: 25px;
+    }
+    .icon3{
+        display:flex;
+    }
 
 }
 
@@ -640,5 +700,5 @@ body{
     margin-top: 148px;
 }
 .right_side2_1{
-    display: flex
+    display: flex;
 }
