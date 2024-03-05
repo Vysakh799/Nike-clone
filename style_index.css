@@ -511,7 +511,15 @@ body{
 
 /* Pop - Up end */
 /* Media Query */
-
+@media (max-width:1400px){
+    .image{
+        width: 400px;
+        height: 500px;
+    }
+    .rightside{
+        margin-left: 700px;
+    }
+}
 @media  (max-width:1250px) {
     .item7{
         display: none;
