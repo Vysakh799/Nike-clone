@@ -344,6 +344,10 @@ body{
     margin-top: 10px;
     font-weight: 500;
 }
+.carousel-item img{
+    width:95%;
+    height:255px;
+}
 .content6 .cnt_text{
     font-size: 18px;
     font-weight: 600;
@@ -448,18 +452,28 @@ body{
 .icon3{
     display: none;
 }
+/* Pop - Up */
+
 .popup {
     display: none;
     position: fixed;
-    right: 15px;
-    top: 100px;
+    right: 16px;
+    top: 0;
     border: 3px solid #f1f1f1;
     z-index: 9;
     background-color: white;
     width: 50%;
+    height: 500px;
+    overflow: auto;
+    
 }
+
 .closebutton{
-     margin-left: 275px;
+    position: relative;
+    /* background-color: red; */
+}
+.bi-x{
+    margin-left: 170px;
 }
 .pop1{
     margin-top: 10px;
@@ -469,8 +483,33 @@ body{
 .pop1 .bi-caret-right{
     position:absolute;
     right: 10px;
-  
 }
+.popup_logo{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.popup_para{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.popup_buttons{
+    margin-left: 15px;
+}
+.pbtn2{
+    margin-left: 5px;
+}
+.pop_icons{
+    margin-top: 20px;
+    width: 100px;
+    margin-left: 50px;
+}
+.firstp_icon, .secondp_icon, .thridp_icon, .fourthp_icon{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+/* Pop - Up end */
 /* Media Query */
 
 @media  (max-width:1250px) {
@@ -521,13 +560,7 @@ body{
         margin-left: 300px;
         font-size: 20px;
     }
-    /* .carousel{
-        height: 270px;
-    }
-    .carousel-item img{
-        width: 20px;
-        height: 2px;
-    } */
+  
 }
 @media  (max-width:1200px){
     .item6{
@@ -596,7 +629,7 @@ body{
     .search{
         display: none;
     }
-    .nav_contents{
+    .nav_contents{style="width:95%; height: 255px;"
         margin-left: 100px;
         font-size: 13px;
     }
@@ -666,6 +699,9 @@ body{
     }
 }
 @media (max-width:650px) {
+    .bi-x{
+        margin-left: 260px;
+    }
     .nav_contents{
         display: none;
     }
@@ -684,6 +720,119 @@ body{
     .image{
         width: 150px;
         height: 250px;
+    }
+    .carousel{
+        height: 170px;
+    }
+    .carousel-item img{
+        width: 93%;
+        height: 140px;
+        object-fit: fill;
+
+
+    }
+
+}
+@media (max-width:450px) {
+    .bi-x{
+        margin-left: 170px;
+    }
+    .search_bar{
+        margin-left: 125px;
+    }
+    .content1 .back_img1{
+        height: 200px;
+    }
+    .content1 .back_img_text{
+        font-size: 30px;
+        margin-top: 80px;
+    }
+    .sub_content1{
+        margin-top: 0px;
+    }
+    .para_1{
+        font-size: 12px;
+    }
+    .buttons p{
+        font-size: 12px;
+    }
+    .buttons div{
+        height: 30px;
+    }
+    .images1{
+        display: flex;
+        flex-direction: column;
+    }
+    .img_2{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .sub_content2{
+        margin-top: -120px;
+    }
+    .head1{
+        margin-top: -3px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .head1_0{
+        margin-top: 0px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .image{
+        width: 300px;
+        height: 400px;
+    }
+    .images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content8 li{
+        display: none;
+    }
+    .content8{
+        display: flex;
+        flex-direction: column;
+    }
+    .container1{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .cnts{
+        margin-left: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .cnts .secondcnt{
+        margin-left: 0px;
+    }
+    .last_line{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    .rightside{
+        margin-left: 15px;
+    }
+    .logos{
+        margin-left: 23px;
+    }
+    .content4 video{
+        height: 400px;
+    }
+    .carousel{
+        height: 200px;
+    }
+    .carousel-item img{
+        width: 93%;
+        height: 170px;
+        object-fit: fill;
+
+
     }
 
 }
