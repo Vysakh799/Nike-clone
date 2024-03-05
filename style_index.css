@@ -856,17 +856,45 @@ body{
 
 /* NIKE AIR PAGE STYLE */
 .nav_bar2_3{
+
     display: flex;
-    height: 180px;
-}
-.left_side2_1{
-    background-color: red;
+    margin-top: 85px;
+    /* height: 180px; */
+    background-color: white;
+    align-items: center;
 }
 .left_side2_1 p{
     font-size: 23px; 
     font-weight: 600;
-    margin-top: 148px;
+    /* margin-left: 148px; */
 }
 .right_side2_1{
+    margin-left: 75%;
+}
+.nav_contents2_1{
     display: flex;
+    font-size: 16px;
+    font-weight: 500;
+}
+.icon2_2{
+    margin-left: 15px;
+}
+.icon2_1, .icon2_2{
+    display: flex;
+}
+.side_navbar{
+    width: 15%;
+}
+.head2_1{
+    display: flex;
+    /* background-color: red;    */
+}
+.head2_1 .bi-caret-up-fill{
+    position: absolute;
+    left: 220px;
+}
+.red, .black, .blue, .white, .brown, .green, .grey, .pink{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
 }
