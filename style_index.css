@@ -637,7 +637,9 @@ body{
     .search{
         display: none;
     }
-    .nav_contents{style="width:95%; height: 255px;"
+    .nav_contents{
+        width:95%; 
+        height: 255px;
         margin-left: 100px;
         font-size: 13px;
     }
