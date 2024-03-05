@@ -836,6 +836,11 @@ body{
     }
 
 }
+@media  (max-width:410px){
+    .search_bar{
+        margin-left: 100px;
+    }
+} 
 
 /* Media Query End */
 
