@@ -525,14 +525,14 @@ body{
 .left_side2_1 p{
     font-size: 23px; 
     font-weight: 600;
-    width: 200px;
+    width: 180px;
     /* margin-left: 148px; */
 }
 .left_side2_1{
-    width: 200px;
+    width: 180px;
 }
 .right_side2_1{
-    margin-left: 70%;
+    margin-left: 75%;
 }
 .nav_contents2_1{
     display: flex;
