@@ -511,6 +511,30 @@ body{
 
 /* Pop - Up end */
 /* Media Query */
+@media (min-width:1880px){
+    .nav_contents{
+        margin-left: 600px;
+    }
+    .search_bar{
+        margin-left: 100px;
+    }
+    .sub_content2{
+        margin-top: 10px;
+    }
+    .carousel{
+        height: 350px;
+    }
+    .carousel-item img{
+        width: 96%;
+        height: 320px;
+        object-fit: fill;
+
+
+    }
+    .rightside{
+        margin-left: 1200px;
+    }
+}
 @media (max-width:1400px){
     .image{
         width: 400px;
@@ -883,6 +907,7 @@ body{
     display: flex;
 }
 .side_navbar{
+    /* position: fixed; */
     width: 15%;
 }
 .head2_1{
@@ -891,10 +916,46 @@ body{
 }
 .head2_1 .bi-caret-up-fill{
     position: absolute;
-    left: 220px;
+    left: 250px;
+}
+.clr1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .red, .black, .blue, .white, .brown, .green, .grey, .pink{
     height: 30px;
     width: 30px;
     border-radius: 50px;
+}
+.colour1,.colour2{
+    display: flex;
+    /* background-color: aqua; */
+    width: 200px;
+    justify-content: space-between;
+}
+.colour3{
+    display: flex;
+    /* background-color: blueviolet; */
+    width: 105px;
+    justify-content: space-between;
+}
+.in_class{
+    display: flex;
+    align-items: center;
+}
+.partition_div{
+    display: flex;
+}
+
+/* Grid Container */
+
+.grid_container{
+    margin-left: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 15px;
+    height: 1250px;
+    overflow: auto;
 }
