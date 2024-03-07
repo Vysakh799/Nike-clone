@@ -651,6 +651,9 @@ body{
         width: 355px;
         height: 455px;
     }
+    .img1_0 a{
+        font-weight: 200;
+    }
     .img1_0 img{
         width: 555px;
         height: 655px ;
@@ -773,6 +776,10 @@ body{
         flex-direction: column;
         width: 100%;
         align-items: center;
+    }
+    .img1_0 a{
+        font-weight: 200;
+
     }
     .carousel_section2{
         display: flex;
