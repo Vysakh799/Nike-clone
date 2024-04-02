@@ -58,9 +58,9 @@ body{
 .nav_contents{
     display: flex;
     /* background-color: red; */
-    width: 750px;
+    width: 35%;
     height: 100%;
-    margin-left: 340px;
+    margin-left: 380px;
     /* justify-content: space-evenly; */
     align-items: center;
     font-size: 16px;
@@ -80,7 +80,7 @@ body{
     height: 55px;
     display: flex;
     align-items: center;
-    /* margin-left: px; */
+    margin-left: 10%;
 }
 .search{
     background-color: rgb(223, 223, 223);
